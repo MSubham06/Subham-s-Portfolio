@@ -6,6 +6,10 @@
     <title>Subham's Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        .navbar-toggler-icon {
+            background-color: #FBFAEE;
+        }
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -13,64 +17,119 @@
             background-color: #FBFAEE; /* Floral White */
             color: #242424; /* Raisin Black */
         }
+
         .navbar {
             background-color: #000000; /* Black */
-            position: fixed; /* Fixing the navbar */
+            position: fixed;
+            font-family: 'Poppins', sans-serif;
             top: 0;
             width: 100%;
             z-index: 1000;
         }
+
         .navbar-brand {
-            color: #FBFAEE  !important; /* Floral White */
+            color: #c56afd !important;
             font-weight: bold;
-            font-family: 'Poppins', sans-serif; /* Using Poppins font */
+            font-family: 'Poppins', sans-serif;
             text-transform: uppercase;
             letter-spacing: 0.05em;
-            font-size: 1.8rem; /* Reduced size */
-            transition: all 0.3s ease; /* Smooth transition */
+            font-size: 1.8rem;
+            transition: all 0.3s ease;
         }
+
         .nav-link {
-            color: #FBFAEE !important; /* Floral White */
+            color: #FBFAEE !important;
             font-weight: bold;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
-            transition: all 0.3s ease; /* Smooth transition */
-            text-align: center; /* Center align text */
-            margin: 0 10px; /* Added space between buttons */
+            letter-spacing: 0.09em;
+            transition: all 0.3s ease;
+            text-align: center;
+            margin: 0 15px;
         }
+
         .nav-link:hover {
-            background-color: #000000 !important; /* Black */
-            box-shadow: 0 0 10px #000000, 0 0 20px #000000; /* Black shadow effect */
-            transform: scale(1.1); /* Pop-up effect */
-            color: #933DC9 !important; /* Text color on hover */
+            background-color: #000000 !important;
+            box-shadow: 0 0 10px #000000, 0 0 20px #000000;
+            transform: scale(1.1);
+            color: #933DC9 !important;
         }
+
         section {
-            padding: 100px 20px;
-            margin-top: 80px; /* Adjusted margin to account for fixed navbar */
+            padding: 100px 30px;
+            margin-top: 0px;
         }
-        .home {
-            background: #933DC9; /* Dark Orchid */
+
+        #home {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #000000;
             color: white;
+            padding: 50px;
+            width: 100vw;
+            height: auto;
+            box-sizing: border-box;
+            overflow: hidden;
         }
+
+        #home div {
+            flex: 1;
+        }
+
+        #home div:first-child {
+            max-width: 60%;
+            padding: 0 20px;
+        }
+
+        #home img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Media Query for Small Devices */
+        @media (max-width: 768px) {
+            #home {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            #home div:first-child {
+                max-width: 100%;
+                padding: 20px;
+            }
+
+            #home img {
+                margin-top: 20px;
+                max-width: 80%;
+            }
+        }
+
         .about {
-            background: #242424; /* Raisin Black */
-            color: #FBFAEE; /* Floral White */
+            background: #933DC9;
+            color: #FBFAEE;
         }
+
         .thumbnail {
-            background: #FBFAEE; /* Floral White */
-            color: #242424; /* Raisin Black */
+            background: #FBFAEE;
+            color: #242424;
         }
+
         .short-form {
-            background: #53118F; /* American Violet */
+            background: #53118F;
             color: white;
         }
+
         .long-form {
-            background: #933DC9; /* Dark Orchid */
+            background: #933DC9;
             color: white;
         }
+
         .contact {
-            background: #000000; /* Black */
-            color: #FBFAEE; /* Floral White */
+            background: #000000;
+            color: #FBFAEE;
         }
     </style>
 </head>
@@ -93,10 +152,10 @@
                         <a class="nav-link" href="#thumbnail">Thumbnail</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#short-form">Short Form</a>
+                        <a class="nav-link" href="#short-form">Short Video</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#long-form">Long Form</a>
+                        <a class="nav-link" href="#long-form">Long Video</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact Us</a>
@@ -105,10 +164,22 @@
             </div>
         </div>
     </nav>
-
-    <section id="home" class="home">
-        <h1>Welcome to My Editing Portfolio</h1>
-        <p>Showcasing my skills and projects to help bring your vision to life.</p>
+    <section id="home">
+        <div>
+            <br><br><br><br>
+            <h1 style="font-size: 4rem; color: #FBFAEE; font-family: 'Poppins', sans-serif;">
+                <b>Hello, I'm <span style="color: #933DC9;">Subham</span>.</b>
+            </h1>
+            <h2 style="font-size: 1.8rem; color: #FBFAEE; margin-top: 10px; font-family: 'Poppins', sans-serif;">
+                <b><span style="color: #933DC9;">Welcome</span> to my portfolio!</b>
+            </h2>
+            <p style="font-size: 1.3rem; line-height: 1.6; margin-top: 20px; color: white;">
+                I am a freelance <b style="color: #c56afd;">Video editor</b> and <b style="color: #c56afd;">Graphic designer</b>, dedicated to delivering the best outcomes for my clients, helping them grow and stand out with unique, creative solutions.
+            </p>
+        </div>
+        <div>
+            <img src="SubhamHome1.png" alt="Subham's Photo">
+        </div>
     </section>
 
     <section id="about" class="about">
