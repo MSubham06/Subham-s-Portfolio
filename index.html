@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subham's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FBFAEE; /* Floral White */
+            color: #242424; /* Raisin Black */
+        }
+        .navbar {
+            background-color: #000000; /* Black */
+            position: fixed; /* Fixing the navbar */
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .navbar-brand {
+            color: #FBFAEE  !important; /* Floral White */
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif; /* Using Poppins font */
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 1.8rem; /* Reduced size */
+            transition: all 0.3s ease; /* Smooth transition */
+        }
+        .nav-link {
+            color: #FBFAEE !important; /* Floral White */
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            transition: all 0.3s ease; /* Smooth transition */
+            text-align: center; /* Center align text */
+            margin: 0 10px; /* Added space between buttons */
+        }
+        .nav-link:hover {
+            background-color: #000000 !important; /* Black */
+            box-shadow: 0 0 10px #000000, 0 0 20px #000000; /* Black shadow effect */
+            transform: scale(1.1); /* Pop-up effect */
+            color: #933DC9 !important; /* Text color on hover */
+        }
+        section {
+            padding: 100px 20px;
+            margin-top: 80px; /* Adjusted margin to account for fixed navbar */
+        }
+        .home {
+            background: #933DC9; /* Dark Orchid */
+            color: white;
+        }
+        .about {
+            background: #242424; /* Raisin Black */
+            color: #FBFAEE; /* Floral White */
+        }
+        .thumbnail {
+            background: #FBFAEE; /* Floral White */
+            color: #242424; /* Raisin Black */
+        }
+        .short-form {
+            background: #53118F; /* American Violet */
+            color: white;
+        }
+        .long-form {
+            background: #933DC9; /* Dark Orchid */
+            color: white;
+        }
+        .contact {
+            background: #000000; /* Black */
+            color: #FBFAEE; /* Floral White */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Imperfect.cutz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#thumbnail">Thumbnail</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#short-form">Short Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#long-form">Long Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="home">
+        <h1>Welcome to My Editing Portfolio</h1>
+        <p>Showcasing my skills and projects to help bring your vision to life.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Learn more about my journey, skills, and experience in video editing.</p>
+    </section>
+
+    <section id="thumbnail" class="thumbnail">
+        <h2>Thumbnail Editing</h2>
+        <ul>
+            <li>Informative Thumbnail</li>
+            <li>Gaming Thumbnail</li>
+            <li>Regular Thumbnail</li>
+        </ul>
+    </section>
+
+    <section id="short-form" class="short-form">
+        <h2>Short Form Videos</h2>
+        <ul>
+            <li>Travelling Video</li>
+            <li>Informative Video</li>
+            <li>Advertising Video</li>
+        </ul>
+    </section>
+
+    <section id="long-form" class="long-form">
+        <h2>Long Form Videos</h2>
+        <ul>
+            <li>Tutorials Video</li>
+            <li>Informative Video</li>
+            <li>Gaming Video</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Get in touch to collaborate on your next video project.</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
