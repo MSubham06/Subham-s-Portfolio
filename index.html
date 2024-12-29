@@ -31,7 +31,7 @@
             color: #c56afd !important;
             font-weight: bold;
             font-family: 'Poppins', sans-serif;
-            text-transform: uppercase;
+            text-transform:capitalize;
             letter-spacing: 0.05em;
             font-size: 1.8rem;
             transition: all 0.3s ease;
@@ -53,11 +53,7 @@
             transform: scale(1.1);
             color: #933DC9 !important;
         }
-
-        section {
-            padding: 100px 30px;
-            margin-top: 0px;
-        }
+        
 
         #home {
             display: flex;
@@ -136,7 +132,7 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Imperfect.cutz</a>
+            <a class="navbar-brand" href="#">Imperfect.Cutz</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -164,6 +160,7 @@
             </div>
         </div>
     </nav>
+    <!-- Home -->
     <section id="home">
         <div>
             <br><br><br><br>
@@ -174,7 +171,7 @@
                 <b><span style="color: #933DC9;">Welcome</span> to my portfolio!</b>
             </h2>
             <p style="font-size: 1.3rem; line-height: 1.6; margin-top: 20px; color: white;">
-                I am a freelance <b style="color: #c56afd;">Video editor</b> and <b style="color: #c56afd;">Graphic designer</b>, dedicated to delivering the best outcomes for my clients, helping them grow and stand out with unique, creative solutions.
+                I am a freelance <b style="color: #c56afd;">Video Editor</b> and <b style="color: #c56afd;">Graphic Designer</b>, dedicated to delivering the best outcomes for my clients, helping them grow and stand out with unique, creative solutions.
             </p>
         </div>
         <div>
@@ -182,12 +179,72 @@
         </div>
     </section>
 
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>Learn more about my journey, skills, and experience in video editing.</p>
-    </section>
+    <!-- About -->
+    <section id="about" class="about" style="background: #772ba7; color: #FBFAEE; padding-left: 50px; padding-right: 50px; padding-top: 85px; font-family: Arial, sans-serif;padd">
+            <h1 style="text-align: left; padding-bottom: 5px; font-size: 3rem;font-family: 'Poppins', sans-serif;text-transform: lowercasecase; font-weight: bold;
+">About Me</h1>
+            <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                <!-- Left Column -->
+                <div style="flex: 1; min-width: 300px;">
+                    <p style="padding-left: 20px;">With 5 years of experience in video editing, I’ve worked on a variety of projects, including graphic design for cafes and freelance editing assignments. While my journey has been irregular in the past, 2025 marks a fresh start as I commit to providing part-time freelance editing services.</p>
+                    <p style="padding-left: 20px;">As a 3rd-year B.Tech student specializing in AI & ML, I’m deeply passionate about both editing and AI. Combining creativity with technical expertise, I aim to bring unique, innovative perspectives to every project I undertake. With a strong understanding of the evolving AI landscape, I’m confident in my ability to deliver high-quality work that perfectly aligns with your vision.</p> <br>
 
-    <section id="thumbnail" class="thumbnail">
+                    <h4 style="margin-top: 20px; font-family: 'Poppins', sans-serif; font-weight: bold;">Language :</h4>
+                    <p style="margin-left: 20px;">
+                        • English 
+                        • Hindi
+                        • Telugu
+                    </p>
+
+                    <h4 style="margin-top: 20px; font-weight: bold; font-family: 'Poppins', sans-serif; ">Skills :</h4>
+                    <p style="margin-left: 20px;">
+                        • StoryBoarding
+                        • SFX Editing
+                        • Color Correction
+                        • Creative Thinking
+                        • Design Principles
+                        • Typography
+                        • Color Theory
+                        • Layout Design
+                        • Branding
+                        • Adaptability
+                    </p>
+                    
+                </div>
+                <!-- Right Column -->
+                <div style="flex: 1; min-width: 300px; padding-left: 30px;">
+                    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                        <!-- Left Sub-Column (Experience) -->
+                        <div style="flex: 1; min-width: 150px;">
+                            <h3 style="margin-bottom: 10px; font-family: 'Poppins', sans-serif; font-weight: bold;">Experience : </h3>
+                            <ul style="padding-left: 20px;">
+                                <li>5+ years in Video Editing</li>
+                                <li>1+ year in Graphic Designing</li>
+                            </ul>
+                        </div>
+
+                        <!-- Right Sub-Column (Certification) -->
+                        <div style="flex: 1; min-width: 150px;">
+                            <h4 style="margin-top: 0; font-family: 'Poppins', sans-serif; font-weight: bold;">Certification :</h4>
+                            <ul style="padding-left: 20px;">
+                                <li>Digital Marketing By Google</li>
+                                <li>Google Ads Creative By Google</li>
+                                <li>AI For Everyone By DeepLearning.AI</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Profile Photo -->
+                    <div style="text-align:center; margin-bottom: 0; padding-bottom: 0;">
+                        <img src="SubhamAbout.png" alt="Subham's Profile Photo" style=" width: auto; height: 400px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+        
+
+    <section id="thumbnail" class="thumbnail" style="padding: 20%;">
         <h2>Thumbnail Editing</h2>
         <ul>
             <li>Informative Thumbnail</li>
@@ -196,7 +253,7 @@
         </ul>
     </section>
 
-    <section id="short-form" class="short-form">
+    <section id="short-form" class="short-form" style="padding: 20%;">
         <h2>Short Form Videos</h2>
         <ul>
             <li>Travelling Video</li>
@@ -205,7 +262,7 @@
         </ul>
     </section>
 
-    <section id="long-form" class="long-form">
+    <section id="long-form" class="long-form" style="padding: 20%;">
         <h2>Long Form Videos</h2>
         <ul>
             <li>Tutorials Video</li>
@@ -214,7 +271,7 @@
         </ul>
     </section>
 
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" style="padding: 20%;">
         <h2>Contact Me</h2>
         <p>Get in touch to collaborate on your next video project.</p>
     </section>
