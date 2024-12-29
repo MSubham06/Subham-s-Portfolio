@@ -107,10 +107,16 @@
             background: #933DC9;
             color: #FBFAEE;
         }
+        
+
 
         .thumbnail {
             background: #FBFAEE;
             color: #242424;
+        }
+        .thumbnail-box:hover {
+            transform: scale(1.05); /* Increase size slightly */
+            box-shadow: 0 16px 15px rgba(0, 0, 0, 0.2); /* Add deeper shadow */
         }
 
         .short-form {
@@ -127,6 +133,7 @@
             background: #000000;
             color: #FBFAEE;
         }
+
     </style>
 </head>
 <body>
@@ -180,79 +187,125 @@
     </section>
 
     <!-- About -->
-    <section id="about" class="about" style="background: #772ba7; color: #FBFAEE; padding-left: 50px; padding-right: 50px; padding-top: 85px; font-family: Arial, sans-serif;padd">
-            <h1 style="text-align: left; padding-bottom: 5px; font-size: 3rem;font-family: 'Poppins', sans-serif;text-transform: lowercasecase; font-weight: bold;
-">About Me</h1>
-            <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-                <!-- Left Column -->
-                <div style="flex: 1; min-width: 300px;">
-                    <p style="padding-left: 20px;">With 5 years of experience in video editing, I’ve worked on a variety of projects, including graphic design for cafes and freelance editing assignments. While my journey has been irregular in the past, 2025 marks a fresh start as I commit to providing part-time freelance editing services.</p>
-                    <p style="padding-left: 20px;">As a 3rd-year B.Tech student specializing in AI & ML, I’m deeply passionate about both editing and AI. Combining creativity with technical expertise, I aim to bring unique, innovative perspectives to every project I undertake. With a strong understanding of the evolving AI landscape, I’m confident in my ability to deliver high-quality work that perfectly aligns with your vision.</p> <br>
+    <section id="about" class="about" style="background: #772ba7; color: #FBFAEE; padding-left: 50px; padding-right: 50px; padding-top: 85px; font-family: Arial, sans-serif;">
+        <h1 style="text-align: left; padding-bottom: 5px; font-size: 3rem; font-family: 'Poppins', sans-serif; text-transform:capitalize; font-weight: bold;">About Me</h1>
+        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+            <!-- Left Column -->
+            <div style="flex: 1; min-width: 300px;">
+                <p style="padding-left: 20px;">With 5 years of experience in video editing, I’ve worked on a variety of projects, including graphic design for cafes and freelance editing assignments. While my journey has been irregular in the past, 2025 marks a fresh start as I commit to providing part-time freelance editing services.</p>
+                <p style="padding-left: 20px;">As a 3rd-year B.Tech student specializing in AI & ML, I’m deeply passionate about both editing and AI. Combining creativity with technical expertise, I aim to bring unique, innovative perspectives to every project I undertake. With a strong understanding of the evolving AI landscape, I’m confident in my ability to deliver high-quality work that perfectly aligns with your vision.</p> <br>
 
-                    <h4 style="margin-top: 20px; font-family: 'Poppins', sans-serif; font-weight: bold;">Language :</h4>
-                    <p style="margin-left: 20px;">
-                        • English 
-                        • Hindi
-                        • Telugu
-                    </p>
+                <h4 style="margin-top: 20px; font-family: 'Poppins', sans-serif; font-weight: bold;">Language :</h4>
+                <p style="margin-left: 20px;">
+                    • English 
+                    • Hindi
+                    • Telugu
+                </p>
 
-                    <h4 style="margin-top: 20px; font-weight: bold; font-family: 'Poppins', sans-serif; ">Skills :</h4>
-                    <p style="margin-left: 20px;">
-                        • StoryBoarding
-                        • SFX Editing
-                        • Color Correction
-                        • Creative Thinking
-                        • Design Principles
-                        • Typography
-                        • Color Theory
-                        • Layout Design
-                        • Branding
-                        • Adaptability
-                    </p>
-                    
+                <h4 style="margin-top: 20px; font-weight: bold; font-family: 'Poppins', sans-serif;">Skills :</h4>
+                <p style="margin-left: 20px;">
+                    • StoryBoarding
+                    • SFX Editing
+                    • Color Correction
+                    • Creative Thinking
+                    • Design Principles
+                    • Typography
+                    • Color Theory
+                    • Layout Design
+                    • Branding
+                    • Adaptability
+                </p>
+            </div>
+            <!-- Right Column -->
+            <div style="flex: 1; min-width: 300px; padding-left: 30px;">
+                <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                    <!-- Left Sub-Column (Experience) -->
+                    <div style="flex: 1; min-width: 150px;">
+                        <h3 style="margin-bottom: 10px; font-family: 'Poppins', sans-serif; font-weight: bold;">Experience : </h3>
+                        <ul style="padding-left: 20px;">
+                            <li>5+ years in Video Editing</li>
+                            <li>1+ year in Graphic Designing</li>
+                        </ul>
+                    </div>
+
+                    <!-- Right Sub-Column (Certification) -->
+                    <div style="flex: 1; min-width: 150px;">
+                        <h4 style="margin-top: 0; font-family: 'Poppins', sans-serif; font-weight: bold;">Certification :</h4>
+                        <ul style="padding-left: 20px;">
+                            <li>Digital Marketing By Google</li>
+                            <li>Google Ads Creative By Google</li>
+                            <li>AI For Everyone By DeepLearning.AI</li>
+                        </ul>
+                    </div>
                 </div>
-                <!-- Right Column -->
-                <div style="flex: 1; min-width: 300px; padding-left: 30px;">
-                    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-                        <!-- Left Sub-Column (Experience) -->
-                        <div style="flex: 1; min-width: 150px;">
-                            <h3 style="margin-bottom: 10px; font-family: 'Poppins', sans-serif; font-weight: bold;">Experience : </h3>
-                            <ul style="padding-left: 20px;">
-                                <li>5+ years in Video Editing</li>
-                                <li>1+ year in Graphic Designing</li>
-                            </ul>
-                        </div>
-
-                        <!-- Right Sub-Column (Certification) -->
-                        <div style="flex: 1; min-width: 150px;">
-                            <h4 style="margin-top: 0; font-family: 'Poppins', sans-serif; font-weight: bold;">Certification :</h4>
-                            <ul style="padding-left: 20px;">
-                                <li>Digital Marketing By Google</li>
-                                <li>Google Ads Creative By Google</li>
-                                <li>AI For Everyone By DeepLearning.AI</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Profile Photo -->
-                    <div style="text-align:center; margin-bottom: 0; padding-bottom: 0;">
-                        <img src="SubhamAbout.png" alt="Subham's Profile Photo" style=" width: auto; height: 400px; object-fit: cover;">
-                    </div>
+                <!-- Profile Photo -->
+                <div style="text-align:center; margin-bottom: 0; padding-bottom: 0;">
+                    <img src="SubhamAbout.png" alt="Subham's Profile Photo" style="width: auto; height: 500px; object-fit: cover;">
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+
+    <!-- thumbnail section -->
+    <section id="thumbnail" class="thumbnail" style="padding: 20px; background: #FBFAEE; color: #242424; padding-bottom: 100px;">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: bold; font-size: 4rem; text-align: center; padding-top: 80px; color: #933DC9; padding-bottom: 60px;">
+            <u>Thumbnail Design's</u>
+        </h2>
+        <div id="timage" style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+            <!-- Informative Thumbnail -->
+            <div id="informative-box" class="thumbnail-box" style="width: 320px; background: #933DC9; border-radius: 10px; border: 8px solid #933DC9; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease;">
+                <div style="width: 100%; aspect-ratio: 16/9; background: #E0E0E0;">
+                    <img src="T1.jpeg" alt="Informative Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="padding: 20px;">
+                    <h3 style="font-family: 'Poppins', sans-serif; font-size: 1.25rem; color: #FBFAEE; font-weight: bold;">Informative Thumbnail</h3>
+                    <p style="font-family: 'Poppins', sans-serif; font-size: 1rem; color: #FBFAEE;">This is an informative thumbnail with relevant details and a clear design.</p>
+                </div>
+            </div>
+        
+            <!-- Gaming Thumbnail -->
+            <div id="gaming-box" class="thumbnail-box" style="width: 320px; background: #933DC9; border-radius: 10px; border: 8px solid #933DC9; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease;">
+                <div style="width: 100%; aspect-ratio: 16/9; background: #E0E0E0;">
+                    <img src="T2.jpeg" alt="Gaming Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="padding: 20px;">
+                    <h3 style="font-family: 'Poppins', sans-serif; font-size: 1.25rem; color: #FBFAEE; font-weight: bold;">Gaming Thumbnail</h3>
+                    <p style="font-family: 'Poppins', sans-serif; font-size: 1rem; color: #FBFAEE;">A thumbnail tailored for gaming content, featuring bold and vibrant elements.</p>
+                </div>
+            </div>
+        
+            <!-- Regular Thumbnail -->
+            <div id="regular-box" class="thumbnail-box" style="width: 320px; background: #933DC9; border-radius: 10px; border: 8px solid #933DC9; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease;">
+                <div style="width: 100%; aspect-ratio: 16/9; background: #E0E0E0;">
+                    <img src="T3.jpeg" alt="Regular Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="padding: 20px;">
+                    <h3 style="font-family: 'Poppins', sans-serif; font-size: 1.25rem; color: #FBFAEE; font-weight: bold;">Regular Thumbnail</h3>
+                    <p style="font-family: 'Poppins', sans-serif; font-size: 1rem; color: #FBFAEE;">A simple and clean thumbnail design for everyday use.</p>
+                </div>
+            </div>
+        
+            <!-- New Thumbnail -->
+            <div id="new-box" class="thumbnail-box" style="width: 320px; background: #933DC9; border-radius: 10px; border: 8px solid #933DC9; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease;">
+                <div style="width: 100%; aspect-ratio: 16/9; background: #E0E0E0;">
+                    <img src="T1.jpeg" alt="New Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="padding: 20px;">
+                    <h3 style="font-family: 'Poppins', sans-serif; font-size: 1.25rem; color: #FBFAEE; font-weight: bold;">New Thumbnail</h3>
+                    <p style="font-family: 'Poppins', sans-serif; font-size: 1rem; color: #FBFAEE;">A description of your new thumbnail goes here.</p>
+                </div>
+            </div>
+        </div>
     </section>
     
-        
+    
+    
 
-    <section id="thumbnail" class="thumbnail" style="padding: 20%;">
-        <h2>Thumbnail Editing</h2>
-        <ul>
-            <li>Informative Thumbnail</li>
-            <li>Gaming Thumbnail</li>
-            <li>Regular Thumbnail</li>
-        </ul>
-    </section>
 
+
+
+
+    <!-- Short Form Videos -->
     <section id="short-form" class="short-form" style="padding: 20%;">
         <h2>Short Form Videos</h2>
         <ul>
@@ -262,6 +315,8 @@
         </ul>
     </section>
 
+
+    <!-- Long Form Videos -->
     <section id="long-form" class="long-form" style="padding: 20%;">
         <h2>Long Form Videos</h2>
         <ul>
@@ -271,6 +326,9 @@
         </ul>
     </section>
 
+
+
+    <!-- Contact Me -->
     <section id="contact" class="contact" style="padding: 20%;">
         <h2>Contact Me</h2>
         <p>Get in touch to collaborate on your next video project.</p>
